@@ -1,0 +1,127 @@
+snippet fu "New Function" !b
+function ${1}($${2})
+{
+	return${3};
+}
+${0}
+endsnippet
+
+snippet m "New Method" !b
+/**
+ * Method desription goes here
+ *
+`!p
+if t[3]:
+    for param in t[3].split(','):
+        snip.rv += snip.mkline(" * @param  mixed %s\n" % param.strip())
+else:
+    snip.rv = ""
+` * @return type description
+ */
+${1:protected} function ${2}(${3})
+{
+	return${4};
+}
+${0}
+endsnippet
+
+
+snippet pub "New Public Method" !b
+public function ${1}($${2})
+{
+	return${3};
+}
+${0}
+endsnippet
+
+snippet pro "New Protected Method" !b
+protected function ${1}($${2})
+{
+	return${3};
+}
+${0}
+endsnippet
+
+snippet pri "New Private Method" !b
+private function ${1}($${2})
+{
+	return${3};
+}
+${0}
+endsnippet
+
+snippet pubs "New Public Static Method" !b
+public static function ${1}($${2})
+{
+	return${3};
+}
+${0}
+endsnippet
+
+snippet pros "New Protected Static Method" !b
+protected static function ${1}($${2})
+{
+	return${3};
+}
+${0}
+endsnippet
+
+snippet pris "New Private Static Method" !b
+private static function ${1}($${2})
+{
+	return${3};
+}
+${0}
+endsnippet
+
+snippet if "New if statement" !b
+if (${1}) {
+	${2}
+}
+${0}
+endsnippet
+
+snippet else "New else statement" !b
+else {
+	${1}
+}
+${0}
+endsnippet
+
+snippet elif "New elseif statement" !b
+elseif (${1}) {
+	${2}
+}
+${0}
+endsnippet
+
+snippet ife "New if else statement" !b
+if (${1}) {
+	${2}
+}
+else {
+	${3}
+}
+${0}
+endsnippet
+
+snippet for "New for statement" !b
+for ($${1:i} = ${2:0}; $$1 ${3:<} ${4:count}; $$1${5:++}) {
+	${6}
+}
+${0}
+endsnippet
+
+snippet fore "New foreach statement" !b
+foreach ($${1:variable} as $${2:value}) {
+	${3}
+}
+${0}
+endsnippet
+
+snippet forek "New foreach with key statement" !b
+foreach ($${1:variable} as $${2:key} => $${3:value}) {
+	${4}
+}
+${0}
+endsnippet

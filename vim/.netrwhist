@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Volumes/data/code/hypeandco'
+let g:netrw_dirhist_2='/Volumes/data/code/hypeandco/app'
+let g:netrw_dirhist_3='/Volumes/data/code/hypeandco/app/Http'
+let g:netrw_dirhist_4='/Volumes/data/code/hypeandco/app/Http/Controllers'
